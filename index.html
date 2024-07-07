@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="scr/styles.css" rel="stylesheet" type="text/css" />
+    <link href="scr/script.js" rel="stylesheet" type="js" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <title>My Weather App</title>
+  </head>
+  <body>
+    <main class="weather-wrapper">
+      <header>
+        <form id="search-form">
+          <input type="search" placeholder="Enter a city..." required />
+          <input type="submit" value="Search" />
+        </form>
+      </header>
+      <section class="current-weather">
+        <div><p class="current-temperature-icon">☀️</p></div>
+        <div>
+          <p class="current-temperature">14°C</p>
+          <h1 class="current-city">Stockholm</h1>
+          <p class="current-date" id="current-date">Saturday 15:32, Sunny</p>
+        </div>
+      </section>
+      <div class="divider"></div>
+      <section class="forecast-weather">
+        <ul class="weather-week">
+          <li>Sun 💨 <br /><strong>14°C</strong> - 18°C</li>
+          <li>Mon 🌤️<br /><strong>14°C</strong> - 18°C</li>
+          <li>Tue 🌦️<br /><strong>14°C</strong> - 18°C</li>
+          <li>Wed 🌦️<br /><strong>14°C</strong> - 18°C</li>
+          <li>Thu 🌧️<br /><strong>14°C</strong> - 18°C</li>
+        </ul>
+      </section>
+    </main>
+    <footer>
+      <p class="footer-copy">
+        This project was coded by
+        <a href="https://www.mariathulin.webflow.io">Maria Thulin</a>
+      </p>
+    </footer>
+  </body>
+</html>
